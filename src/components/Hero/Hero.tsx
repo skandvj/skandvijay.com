@@ -186,9 +186,9 @@ const Hero = () => {
                 </a>
               </div>
               
-{/*               <p className="text-sm text-slate-600 text-center">
+              <p className="text-sm text-slate-600 text-center">
                 Leading product initiatives across Fortune 500 and high-growth startups
-              </p> */}
+              </p>
             </motion.div>
 
             {/* Professional Certification */}
