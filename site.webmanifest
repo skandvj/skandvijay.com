@@ -4,8 +4,8 @@
   "description": "Skand Vijay: founder, founding member, founding engineer, and CEO of The ScopeMind. Carnegie Mellon (CMU) MISM. Software engineer. Developer infrastructure and agentic AI.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f4f3f0",
-  "theme_color": "#1a1916",
+  "background_color": "#f6f6f6",
+  "theme_color": "#111111",
   "lang": "en-US",
   "categories": ["portfolio", "engineering", "technology", "business"],
   "icons": [
