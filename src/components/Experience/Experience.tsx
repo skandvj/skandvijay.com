@@ -8,16 +8,31 @@ const Experience: React.FC = () => {
 
   const experiences = [
     {
+      title: "Software Engineer",
+      company: "Capacity",
+      location: "St. Louis, MO",
+      period: "February 2026 - Present",
+      logo: "images/capacity.png",
+      type: "Engineering",
+      achievements: [
+        "Building developer infrastructure and internal platforms that improve engineering velocity",
+        "Shipping productivity tooling that streamlines AI-assisted workflows across product teams",
+        "Designing token optimization systems to reduce LLM cost while preserving output quality"
+      ],
+      technologies: ["Developer Infra", "Python", "LLM Systems", "Token Optimization", "Platform Engineering"],
+      impact: "Improving developer productivity while cutting AI inference cost through infrastructure and token efficiency"
+    },
+    {
       title: "AI Product Manager Intern",
       company: "Capacity",
       location: "St. Louis, MO",
-      period: "May 2024 - Present",
+      period: "May 2024 - August 2024",
       logo: "images/capacity.png",
-      type: "AI Safety",
+      type: "Product",
       achievements: [
-        "Leading AI product development initiatives for enterprise automation",
-        "Collaborating with cross-functional teams to define product roadmaps",
-        "Implementing user-centric design principles in AI-powered solutions"
+        "Led AI product development initiatives for enterprise automation",
+        "Collaborated with cross-functional teams to define product roadmaps",
+        "Implemented user-centric design principles in AI-powered solutions"
       ],
       technologies: ["AI/ML", "Product Strategy", "User Research", "Agile"],
       impact: "Driving product innovation in enterprise AI automation"
@@ -85,8 +100,8 @@ const Experience: React.FC = () => {
         >
           <h2 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6">Experience</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Building impactful products and leading teams across Fortune 500 companies, 
-            startups, and academic institutions
+            Building developer infrastructure, productivity systems, and AI platforms
+            across Fortune 500 companies and high-growth startups
           </p>
         </motion.div>
 

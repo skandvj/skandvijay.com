@@ -70,10 +70,10 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
             >
               <div className="text-2xl lg:text-4xl font-light text-slate-700">
-                AI Product Leader
+                Software Engineer
               </div>
-              <div className="text-2xl lg:text-4xl font-light text-slate-700">
-                & Technical Strategist
+              <div className="text-xl lg:text-2xl font-light text-slate-500">
+                Developer Infrastructure · Productivity · Token Optimization
               </div>
             </motion.div>
 
@@ -84,15 +84,15 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
             >
-              Driving technical innovation at{' '}
-              <span style={{ color: '#A6192E', fontFamily: 'Georgia, serif', fontWeight: 'bold' }}>
-                Carnegie Mellon
-              </span>
-              {' & '}
+              Building developer infrastructure, productivity systems, and token-efficient AI platforms at{' '}
               <span style={{ color: '#0057FF', fontFamily: 'Inter, sans-serif', fontWeight: '600' }}>
                 Capacity
               </span>
-              . Building products that transform businesses and shape the future of technology.
+              {' & '}
+              <span style={{ color: '#A6192E', fontFamily: 'Georgia, serif', fontWeight: 'bold' }}>
+                Carnegie Mellon
+              </span>
+              . Focused on making engineering teams ship faster with lower cost and higher reliability.
             </motion.p>
 
             {/* Action Buttons */}
@@ -187,7 +187,7 @@ const Hero = () => {
               </div>
               
               <p className="text-sm text-slate-600 text-center">
-                Leading product initiatives across Fortune 500 and high-growth startups
+                Engineering infrastructure, developer productivity, and AI systems at scale
               </p>
             </motion.div>
 
@@ -225,20 +225,25 @@ const Hero = () => {
               </a>
             </motion.div>
 
-            {/* Key Achievement Highlight */}
+            {/* Focus Highlight */}
             <motion.div
-              className="bg-gradient-to-r from-blue-50 to-slate-50 rounded-2xl p-6 border border-blue-200"
+              className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl p-6 border border-slate-200"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 1.0 }}
             >
-              <div className="text-center">
-                <div className="text-3xl font-bold text-slate-900 mb-2">$12M+</div>
-                <div className="text-sm text-slate-600 font-medium">
-                  Product Value Delivered
+              <div className="grid grid-cols-3 gap-3 text-center">
+                <div>
+                  <div className="text-sm font-bold text-slate-900 mb-1">Dev Infra</div>
+                  <div className="text-xs text-slate-500">Platforms & tooling</div>
                 </div>
-                <div className="text-xs text-slate-500 mt-1">
-                  Across enterprise and startup environments
+                <div>
+                  <div className="text-sm font-bold text-slate-900 mb-1">Productivity</div>
+                  <div className="text-xs text-slate-500">Faster eng loops</div>
+                </div>
+                <div>
+                  <div className="text-sm font-bold text-slate-900 mb-1">Token Opt</div>
+                  <div className="text-xs text-slate-500">Lower AI cost</div>
                 </div>
               </div>
             </motion.div>
